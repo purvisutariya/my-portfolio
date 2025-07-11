@@ -1,0 +1,376 @@
+{
+  "personalInfo": {
+    "name": "Purvi Sutariya",
+    "title": "Tech Maestro | Full Stack Developer & Tech Lead",
+    "description": "With over 6 years of experience in coding and end-to-end product management, I drive strategic growth and quality-driven solutions.",
+    "email": "purvisutariya01@gmail.com",
+    "phone": "+91-63523-05946",
+    "experienceYears": "3+",
+    "location": "Ahmedabad, Gujarat, India - 382330",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Bhadresh-Malankiya",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bhadresh-malankiya",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/12566725/bhadresh-malankiya",
+        "icon": "stack-overflow"
+      },
+      {
+        "name": "Upwork",
+        "url": "https://www.upwork.com/freelancers/bhadreshmalankiya",
+        "icon": "upwork"
+      }
+    ]
+  },
+  "cv": "/cv_mb.pdf",
+  "about": {
+    "profileImg": "/images/profile.jpeg",
+    "description": [
+      "I am a passionate Full Stack Developer and Tech Lead with expertise in designing and managing scalable web applications, SaaS platforms, and high-performance backend systems.",
+      "I have successfully driven product growth, optimized performance, and led teams in creating impactful solutions.",
+      "I have worked extensively on crypto trading platforms, SaaS applications, AI-integrated tools, and large-scale enterprise systems."
+    ],
+    "qualities": [
+      {
+        "title": "Development",
+        "description": "Clean, efficient, and scalable code",
+        "icon": "code"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Working seamlessly with cross-functional teams",
+        "icon": "users"
+      },
+      {
+        "title": "Ownership",
+        "description": "Taking full responsibility for outcomes and delivery",
+        "icon": "brain"
+      },
+      {
+        "title": "Innovation",
+        "description": "Creative problem-solving and optimization",
+        "icon": "lightbulb"
+      }
+    ]
+  },
+  "skills": {
+    "technical": [
+      {
+        "name": "React.js",
+        "level": 95
+      },
+      {
+        "name": "Next.js",
+        "level": 90
+      },
+      {
+        "name": "Node.js",
+        "level": 80
+      },
+      {
+        "name": "MongoDB",
+        "level": 80
+      },
+      {
+        "name": "GraphQL",
+        "level": 80
+      },
+      {
+        "name": "Stripe / Razorpay",
+        "level": 80
+      },
+      {
+        "name": "Technical SEO",
+        "level": 85
+      },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "Tailwind CSS", "level": 80 }
+    ],
+    "professional": [
+      {
+        "name": "Project Management",
+        "value": 85
+      },
+      {
+        "name": "Client Communication",
+        "value": 80
+      },
+      {
+        "name": "Problem Solving",
+        "value": 95
+      },
+      {
+        "name": "Code Review & Optimization",
+        "value": 90
+      },
+      {
+        "name": "Technical Architecture",
+        "value": 88
+      },
+      {
+        "name": "API Design & Integration",
+        "value": 90
+      },
+      {
+        "name": "Performance Optimization",
+        "value": 90
+      },
+      {
+        "name": "Security Best Practices",
+        "value": 80
+      },
+      {
+        "name": "Search Engine Optimization (SEO)",
+        "value": 85
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "ExtendedForms.io",
+      "image": "/images/extendedforms.png",
+      "frameType": "laptop",
+      "liveUrl": "https://extendedforms.io",
+      "shortDescription": "Advanced form analytics and SaaS product extending Google Forms.",
+      "fullDescription": "Led the development and growth of ExtendedForms.io, handling development, server-side releases, bug fixes, SEO, and strategic marketing. The platform integrates seamlessly with Google Forms, offering analytics, time tracking, and response management.",
+      "tags": ["Google Apps Script", "Laravel", "Vue.js", "SaaS"],
+      "features": [
+        "Google Forms integration",
+        "Advanced analytics dashboard",
+        "Custom branding options",
+        "Subscription-based model"
+      ],
+      "technologies": {
+        "frontend": ["Vue.js", "Tailwind CSS"],
+        "backend": ["Laravel", "MySQL"],
+        "deployment": ["AWS"]
+      }
+    },
+    {
+      "id": 11,
+      "title": "TaskFlow - Streamlined Project Management Dashboard",
+      "image": "/images/task-flow-1.1.png",
+      "frameType": "laptop",
+      "liveUrl": "https://task-flow-seven-liard.vercel.app",
+      "images": [
+        "/images/task-flow-1.png",
+        "/images/task-flow-1.2.png",
+        "/images/task-flow-2.png",
+        "/images/task-flow-3.png",
+        "/images/task-flow-4.png",
+        "/images/task-flow-5.png",
+        "/images/task-flow-6.png"
+      ],
+      "shortDescription": "A powerful project management dashboard for seamless team collaboration.",
+      "fullDescription": "TaskFlow is a cutting-edge project management dashboard designed to streamline workflows, enhance collaboration, and provide deep insights through advanced analytics. With role-based access, automation tools, and enterprise-grade security, it caters to businesses of all sizes.",
+      "tags": [
+        "v0 AI",
+        "Next.js",
+        "Tailwind",
+        "Vercel",
+        "LocalDB",
+        "Project Management",
+        "Template"
+      ],
+      "features": [
+        "Role-based dashboard for administrators, team members, and customers",
+        "Advanced analytics for performance tracking",
+        "Enterprise-grade security with role-based access control",
+        "Real-time team collaboration with shared workspaces",
+        "Automation tools to streamline workflows",
+        "Task and project tracking with time management features"
+      ],
+      "technologies": {
+        "frontend": ["Next.js", "Tailwind CSS"],
+        "backend": ["REST API", "LocalDB"],
+        "deployment": ["Vercel"]
+      }
+    },
+    {
+      "id": 2,
+      "title": "BPS Trading Platform",
+      "image": "/images/bps.jpeg",
+      "frameType": "laptop",
+      "shortDescription": "Crypto trading made easy with real-time data and Binance integration.",
+      "fullDescription": "Developed a full-fledged crypto trading platform utilizing Binance Link APIs. Implemented real-time order book updates, market tickers, and high-frequency trading capabilities using WebSockets and Redis caching.",
+      "tags": ["React.js", "Node.js", "MongoDB", "Binance API", "Socket.io"],
+      "features": [
+        "Real-time trading charts",
+        "Buy/Sell orders",
+        "TradingView integration",
+        "User portfolio tracking"
+      ],
+      "technologies": {
+        "frontend": ["React.js", "TradingView API"],
+        "backend": ["Node.js", "MongoDB", "Socket.io"],
+        "deployment": ["AWS", "Docker"]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Hey Buddy - Pet Tags",
+      "liveUrl": "https://app.heybuddy.club/",
+      "image": "/images/heybuddy_4.png",
+      "frameType": "mobile",
+      "images": [
+        "/images/heybuddy_1.jpeg",
+        "/images/heybuddy_2.png",
+        "/images/heybuddy_3.png",
+        "/images/heybuddy_5.jpeg"
+      ],
+      "shortDescription": "AI-powered health and location alerts for pet owners.",
+      "fullDescription": "Created the frontend for Hey Buddy, an AI-driven pet tracking system that notifies owners about health updates and location changes. Integrated deep linking for seamless mobile experience.",
+      "tags": ["Vue.js", "Deep Linking", "AI Alerts"],
+      "features": [
+        "Real-time pet location tracking",
+        "AI-based health monitoring",
+        "User-friendly mobile UI"
+      ],
+      "technologies": {
+        "frontend": ["Vue.js", "Tailwind CSS"],
+        "backend": ["Node.js", "Firebase"]
+      }
+    },
+    {
+      "id": 5,
+      "title": "CompassRT - Trading Widgets",
+      "shortDescription": "End-to-end trading widget development with real-time data streams.",
+      "fullDescription": "Developed a highly optimized trading widget platform integrating Finhubb API, TradingView charts, and real-time data updates via WebSockets.",
+      "tags": ["React.js", "Node.js", "MongoDB", "Socket.io"],
+      "image": "/images/compassrt.jpeg",
+      "features": [
+        "Live order book updates",
+        "Buy/Sell order management",
+        "Market trends visualization"
+      ],
+      "technologies": {
+        "frontend": ["React.js", "TradingView API"],
+        "backend": ["Node.js", "MongoDB", "Socket.io"],
+        "deployment": ["AWS"]
+      }
+    },
+    {
+      "id": 6,
+      "title": "GitHub Copilot Contributions",
+      "image": "/images/github-copilot.jpeg",
+      "shortDescription": "Reviewed AI-generated code and improved suggestions.",
+      "fullDescription": "Worked with GitHub Copilot to review AI-generated code snippets, enhance quality, and optimize the generated code blocks for better performance and reliability.",
+      "tags": ["AI", "Code Review", "GitHub Copilot"],
+      "features": [
+        "AI-driven code generation",
+        "Optimization of AI-suggested solutions",
+        "Collaboration with GitHub Copilot team"
+      ],
+      "technologies": {
+        "tools": ["GitHub Copilot", "AI-assisted development"]
+      }
+    },
+    {
+      "id": 7,
+      "title": "ZWOPR Admin Solution",
+      "liveUrl": "https://zwopr.com/",
+      "image": "/images/zwopr_1.png",
+      "images": [
+        "/images/zwopr_2.png",
+        "/images/zwopr_3.png",
+        "/images/zwopr_4.png",
+        "/images/zwopr_5.png",
+        "/images/zwopr_6.png",
+        "/images/zwopr_7.png"
+      ],
+      "shortDescription": "A social impact platform with AI-powered content generation.",
+      "fullDescription": "Developed an end-to-end admin solution for Zwopr, a platform promoting environmentally friendly social initiatives. Integrated multi-language support, user role management, and AI-powered content generation using Neuroflash APIs.",
+      "tags": ["Next.js", "GraphQL", "AI Content"],
+      "features": [
+        "Admin panel with user role management",
+        "Multi-language support",
+        "AI-powered content generation"
+      ],
+      "technologies": {
+        "frontend": ["Next.js", "Tailwind CSS"],
+        "backend": ["Hasura Cloud", "GraphQL"]
+      }
+    },
+    {
+      "id": 9,
+      "title": "Rightful - Australia's Leading Legal Network",
+      "liveUrl": "https://www.rightful.com.au/",
+      "image": "/images/rightful.png",
+      "shortDescription": "Legal tech platform for Australian lawyers and clients.",
+      "fullDescription": "As part of the frontend team, designed and developed a pixel-perfect UI for Rightful, ensuring smooth animations, timed effects, and GIF support for an engaging user experience.",
+      "tags": ["React.js", "TypeScript", "Legal Tech"],
+      "features": [
+        "Pixel-perfect UI design",
+        "Smooth animations and transitions",
+        "GIF-based interactive elements"
+      ],
+      "technologies": {
+        "frontend": ["React.js", "TypeScript"]
+      }
+    },
+    {
+      "id": 10,
+      "title": "eBaggage Drop",
+      "shortDescription": "AI-powered baggage measurement system for airports.",
+      "fullDescription": "Developed a React-based baggage measurement system that uses AI to verify and calculate baggage weight, size, and count. Integrated a kiosk server and socket.io for real-time updates.",
+      "tags": ["React.js", "AI Measurement", "Socket.io"],
+      "features": [
+        "Automatic baggage weight and size verification",
+        "Real-time data sync using sockets",
+        "Seamless integration with airport kiosks"
+      ],
+      "technologies": {
+        "frontend": ["React.js", "SASS"],
+        "backend": ["Java", "Socket.io"]
+      }
+    },
+    {
+      "id": 12,
+      "title": "Kexy Restaurants - RMS",
+      "liveUrl": "https://getkexy.com/",
+      "image": "/images/kexy.png",
+      "shortDescription": "Restaurant Management System with Ad and Payment Integrations.",
+      "fullDescription": "Worked as a backend developer for Kexy RMS, integrating Ad Butler for advertisers and Stripe Connect for seamless financial transactions. Optimized MySQL databases for efficient data handling.",
+      "tags": ["CakePHP", "Stripe Connect", "AdTech"],
+      "features": [
+        "Ad Butler integration for advertisers",
+        "Stripe Connect for seamless payouts",
+        "Optimized MySQL for efficient transactions"
+      ],
+      "technologies": {
+        "backend": ["CakePHP", "Stripe Connect", "Ad Butler"],
+        "database": ["MySQL"]
+      }
+    },
+    {
+      "id": 4,
+      "title": "LRTS - Gift Delivery App",
+      "image": "/images/lrts.jpeg",
+      "shortDescription": "E-commerce platform for anonymous gift delivery.",
+      "fullDescription": "Developed the backend for LRTS, enabling users to send gifts anonymously through a secure and automated delivery system.",
+      "tags": ["Laravel", "Flutter", "E-commerce"],
+      "features": [
+        "Secure gift delivery",
+        "Payment gateway integration",
+        "User tracking and notifications"
+      ],
+      "technologies": {
+        "frontend": ["Flutter"],
+        "backend": ["Laravel", "MySQL"],
+        "deployment": ["AWS"]
+      }
+    }
+  ],
+  "blogs": {
+    "mediumRssFeed": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40bhadreshm3418"
+  }
+}
