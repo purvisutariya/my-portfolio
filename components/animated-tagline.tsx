@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 
 const AnimatedTagline = () => {
-  const phrases = ["Full Stack Developer", "Tech Lead", "Project Manager", "Problem Solver", "Code Artisan"]
+  const phrases = ["Full Stack Developer", "Creative Coder","Problem Solver", "Code Artisan","React Specialist"]
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
   const [currentText, setCurrentText] = useState("")

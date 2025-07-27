@@ -41,7 +41,7 @@ export default function Header() {
           transition={{ duration: 0.5 }}
           className="text-2xl font-bold bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent"
         >
-          <Link href="/">MB</Link>
+          <Link href="/">PS</Link>
         </motion.div>
 
         {/* Desktop Navigation */}

@@ -6,28 +6,19 @@
     "email": "purvisutariya01@gmail.com",
     "phone": "+91-63523-05946",
     "experienceYears": "3+",
-    "location": "Ahmedabad, Gujarat, India - 382330",
+    "location": "Ahmedabad, Gujarat, India - 382350",
     "socialLinks": [
       {
         "name": "GitHub",
-        "url": "https://github.com/Bhadresh-Malankiya",
+        "url": "https://github.com/purvisutariya",
         "icon": "github"
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/bhadresh-malankiya",
+        "url": "https://www.linkedin.com/in/purvi-sutariya",
         "icon": "linkedin"
-      },
-      {
-        "name": "Stack Overflow",
-        "url": "https://stackoverflow.com/users/12566725/bhadresh-malankiya",
-        "icon": "stack-overflow"
-      },
-      {
-        "name": "Upwork",
-        "url": "https://www.upwork.com/freelancers/bhadreshmalankiya",
-        "icon": "upwork"
       }
+    
     ]
   },
   "cv": "/cv_mb.pdf",

@@ -14,31 +14,24 @@ function AutoScrollingTechIcons() {
   const techIcons = [
     // Frontend
     { name: "React", icon: "/icons/react.svg" },
-    { name: "Vue.js", icon: "/icons/vue.svg" },
-    { name: "Angular", icon: "/icons/angular.svg" },
     { name: "Next.js", icon: "/icons/nextjs.svg" },
     { name: "Tailwind CSS", icon: "/icons/tailwind.svg" },
     { name: "TypeScript", icon: "/icons/typescript.svg" },
 
     // Backend
     { name: "Node.js", icon: "/icons/nodejs.svg" },
-    { name: "Laravel", icon: "/icons/laravel.svg" },
     { name: "Express", icon: "/icons/express.svg" },
     { name: "NestJS", icon: "/icons/nestjs.svg" },
 
     // Cloud & Deployment
     { name: "AWS", icon: "/icons/aws.svg" },
-    { name: "Azure", icon: "/icons/azure.svg" },
     { name: "Google Cloud", icon: "/icons/google-cloud.svg" },
     { name: "Vercel", icon: "/icons/vercel.svg" },
-    { name: "Netlify", icon: "/icons/netlify.svg" },
-    { name: "Docker", icon: "/icons/docker.svg" },
 
     // Databases
     { name: "MongoDB", icon: "/icons/mongodb.svg" },
     { name: "PostgreSQL", icon: "/icons/postgresql.svg" },
     { name: "MySQL", icon: "/icons/mysql.svg" },
-    { name: "Redis", icon: "/icons/redis.svg" },
 
     // Payment & Third-party
     { name: "Stripe", icon: "/icons/stripe.svg" },
