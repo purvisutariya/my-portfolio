@@ -115,7 +115,8 @@ export default function Projects() {
  <div
         style={{
           marginTop: "20px",
-          display: "inline-block",
+          display: "flex",
+          justify-content: center;
           padding: "10px 20px",
           borderRadius: "30px",
           background: "#f0f0f0",
@@ -124,7 +125,7 @@ export default function Projects() {
           fontSize: "0.9rem",
         }}
       >
-        Coming Soon
+     <div> Coming Soon</div>  
 {/*       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"> */}
 
 
