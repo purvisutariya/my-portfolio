@@ -116,7 +116,7 @@ export default function Projects() {
         style={{
           marginTop: "20px",
           display: "flex",
-          justify-content: center;
+          justify-content: "center",
           padding: "10px 20px",
           borderRadius: "30px",
           background: "#f0f0f0",
