@@ -112,9 +112,23 @@ export default function Projects() {
   return (
     <section id="projects" className="container py-20 scroll-mt-28 px-4 sm:px-6">
       <SectionHeading title="My Projects" subtitle="Recent Work" />
+ <div
+        style={{
+          marginTop: "20px",
+          display: "inline-block",
+          padding: "10px 20px",
+          borderRadius: "30px",
+          background: "#f0f0f0",
+          color: "#999",
+          fontWeight: "bold",
+          fontSize: "0.9rem",
+        }}
+      >
+        Coming Soon
+{/*       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"> */}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-        {projects.map((project) => (
+
+{/*         {projects.map((project) => (
           <div
             key={project.id}
             className="group bg-card rounded-xl overflow-hidden shadow-md border border-border h-[400px] flex flex-col transition-all duration-300 hover:shadow-xl hover:scale-[1.02] hover:border-primary/30 cursor-pointer"
@@ -157,7 +171,7 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
 
       <Dialog open={open} onOpenChange={setOpen}>
