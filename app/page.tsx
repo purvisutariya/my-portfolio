@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <Technologies />
       <Projects />
-      <Blogs />
+{/*       <Blogs /> */}
       <Contact />
     </main>
   )
