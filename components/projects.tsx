@@ -9,7 +9,8 @@ import { ExternalLink, Github } from "lucide-react"
 import SectionHeading from "./section-heading"
 import { getProjects } from "@/lib/data"
 import { DialogTitle } from "@radix-ui/react-dialog"
-const projects = getProjects();
+
+const projects = getProjects()
 
 // Device frames for different project types
 const DeviceFrame = ({ frameType, image, alt }: { frameType: string; image: string; alt: string }) => {
@@ -18,12 +19,9 @@ const DeviceFrame = ({ frameType, image, alt }: { frameType: string; image: stri
       return (
         <div className="laptop-frame relative mx-auto w-full max-w-3xl">
           <div className="relative bg-gray-900 rounded-t-xl overflow-hidden pt-4 shadow-xl border-4 border-gray-800">
-            {/* Laptop top bar with camera */}
             <div className="absolute top-0 inset-x-0 h-4 flex items-center justify-center">
               <div className="w-2 h-2 rounded-full bg-gray-700"></div>
             </div>
-
-            {/* Screen content */}
             <div className="relative aspect-video overflow-hidden">
               <Image
                 src={image || "/images/placeholder-project.jpeg"}
@@ -33,26 +31,20 @@ const DeviceFrame = ({ frameType, image, alt }: { frameType: string; image: stri
                 className="w-full h-full object-cover shadow-inner rounded-md"
               />
             </div>
-
-            {/* Laptop bottom */}
             <div className="h-4 bg-gray-800 rounded-b-lg"></div>
           </div>
           <div className="h-3 bg-gray-700 rounded-b-xl mx-auto "></div>
         </div>
       )
-
     case "mobile":
       return (
         <div className="mobile-frame relative mx-auto w-full max-w-[280px]">
           <div className="relative bg-gray-900 rounded-[2rem] overflow-hidden border-[10px] border-gray-800 shadow-xl">
-            {/* Mobile top notch */}
             <div className="absolute top-0 inset-x-0 h-6 flex items-center justify-center">
               <div className="w-20 h-4 rounded-b-xl bg-gray-800 flex items-center justify-center">
                 <div className="w-2 h-2 rounded-full bg-gray-600"></div>
               </div>
             </div>
-
-            {/* Screen content */}
             <div className="relative aspect-[9/19] overflow-hidden">
               <Image
                 src={image || "/images/placeholder-project.jpeg"}
@@ -62,19 +54,15 @@ const DeviceFrame = ({ frameType, image, alt }: { frameType: string; image: stri
                 className="w-full h-full object-cover"
               />
             </div>
-
-            {/* Mobile bottom bar */}
             <div className="h-1 my-2 w-16 bg-gray-700 rounded-full mx-auto"></div>
           </div>
         </div>
       )
-
     case "desktop":
     default:
       return (
         <div className="desktop-frame relative mx-auto w-full max-w-4xl">
           <div className="relative bg-gray-900 rounded-lg overflow-hidden shadow-xl border-4 border-gray-800">
-            {/* Browser top bar */}
             <div className="bg-gray-800 h-8 flex items-center px-4">
               <div className="flex space-x-2">
                 <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -83,8 +71,6 @@ const DeviceFrame = ({ frameType, image, alt }: { frameType: string; image: stri
               </div>
               <div className="mx-auto bg-gray-700 rounded-full h-5 w-1/2"></div>
             </div>
-
-            {/* Screen content */}
             <div className="relative aspect-video overflow-hidden">
               <Image
                 src={image || "/images/placeholder-project.jpeg"}
@@ -104,7 +90,7 @@ export default function Projects() {
   const [open, setOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(projects[0])
 
-  const handleProjectClick = (project) => {
+  const handleProjectClick = (project: any) => {
     setSelectedProject(project)
     setOpen(true)
   }
@@ -112,24 +98,27 @@ export default function Projects() {
   return (
     <section id="projects" className="container py-20 scroll-mt-28 px-4 sm:px-6">
       <SectionHeading title="My Projects" subtitle="Recent Work" />
- <div
-        style={{
-          marginTop: "20px",
-          display: "flex",
-          justify-content: "center",
-          padding: "10px 20px",
-          borderRadius: "30px",
-          background: "#f0f0f0",
-          color: "#999",
-          fontWeight: "bold",
-          fontSize: "0.9rem",
-        }}
-      >
-     <div> Coming Soon</div>  
-{/*       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"> */}
 
+      {/* Coming Soon Section */}
+      <div className="mt-10 flex justify-center">
+        <div className="rounded-2xl border border-border bg-muted/30 px-8 py-10 text-center shadow-md">
+          <h3 className="text-xl font-semibold text-foreground mb-3">
+            Projects Coming Soon
+          </h3>
+          <p className="text-muted-foreground text-sm max-w-md mx-auto mb-4">
+            We’re currently curating and adding exciting projects to showcase here.
+            Check back soon to explore them!
+          </p>
+          <Badge variant="secondary" className="px-4 py-1 text-sm rounded-full">
+            Coming Soon
+          </Badge>
+        </div>
+      </div>
 
-{/*         {projects.map((project) => (
+      {/* Future Grid (Commented out until projects are ready) */}
+      {/*
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        {projects.map((project) => (
           <div
             key={project.id}
             className="group bg-card rounded-xl overflow-hidden shadow-md border border-border h-[400px] flex flex-col transition-all duration-300 hover:shadow-xl hover:scale-[1.02] hover:border-primary/30 cursor-pointer"
@@ -172,8 +161,9 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-        ))} */}
+        ))}
       </div>
+      */}
 
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-5xl max-h-[90vh] overflow-hidden flex flex-col">
@@ -277,4 +267,3 @@ export default function Projects() {
     </section>
   )
 }
-
