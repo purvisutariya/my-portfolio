@@ -106,8 +106,7 @@ export default function Projects() {
             Projects Coming Soon
           </h3>
           <p className="text-muted-foreground text-sm max-w-md mx-auto mb-4">
-            We’re currently curating and adding exciting projects to showcase here.
-            Check back soon to explore them!
+            Work in progress! I'm adding new projects that reflect my skills and passion for creating meaningful solutions. Stay tuned for updates!
           </p>
           <Badge variant="secondary" className="px-4 py-1 text-sm rounded-full">
             Coming Soon
